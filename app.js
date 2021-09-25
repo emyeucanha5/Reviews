@@ -74,7 +74,10 @@ const setProfile = (person) => {
 }
 
 rand_btn.addEventListener("click", () => {
-  id = randNum();
+  let tmp = id;
+  while(tmp===id){
+    id = randNum();  
+  }
   setProfile(id);
 });
 
