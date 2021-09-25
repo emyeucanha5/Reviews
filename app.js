@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded", function() {
 })
 
 const randNum = () => {
-  return (Math.floor(Math.random()*4));
+  return (Math.floor(Math.random()*reviews.length));
 }
 
 // set each item
